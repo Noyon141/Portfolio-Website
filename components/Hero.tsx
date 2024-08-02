@@ -25,6 +25,8 @@ export const Hero = () => {
         colors={["#000000", "#FFFFFF", "#808080", "#2f3d5e", "#5e5c59"]}
         blur={15}
         speed="slow"
+        waveWidth={25}
+        waveOpacity={0.5}
       >
         <div className="flex justify-center relative z-10 my-20 ">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">

@@ -1,6 +1,5 @@
-import { Navbar } from "@/components/Navbar";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import cn from "@/lib/cn";
-import LocomotiveProvider from "@/providers/locomotiveProvider";
 import type { Metadata } from "next";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
@@ -21,17 +20,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <LocomotiveProvider>
-        <body className={cn("text-white ", urbanist.className)}>
-          <div className="py-4 min-w-screen min-h-screen bg-gradient-to-b from-zinc-950 to-zinc-900">
-            <div className="h-16">
-              <Navbar />
-            </div>
-            <div className="h-[calc(100vh-4rem)]">{children}</div>
-          </div>
-        </body>
-      </LocomotiveProvider>
+    <html lang="en" className="">
+      <body className={cn("", urbanist.className)}>
+        <ThemeProvider defaultTheme="dark" attribute="class">
+          <div className="">{children}</div>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

@@ -20,7 +20,7 @@ export const MagicButton = ({
     >
       <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_53%,#0000_0%,#686D76_50%,#151515_100%)]" />
       <span
-        className={`inline-flex h-full tracking-widest w-full cursor-pointer items-center justify-center rounded-lg bg-zinc-950 px-7 text-sm font-semibold lg:px-16 text-white backdrop-blur-3xl gap-3 ${otherClasses}`}
+        className={`inline-flex h-full z-50 tracking-widest w-full cursor-pointer items-center justify-center rounded-lg bg-zinc-950 px-7 text-sm font-semibold lg:px-16 text-white backdrop-blur-3xl gap-3 ${otherClasses}`}
       >
         {position === "left" && icon}
         {title}

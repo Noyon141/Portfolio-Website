@@ -24,7 +24,6 @@ export const Hero = () => {
       <WavyBackground
         colors={["#000000", "#FFFFFF", "#808080", "#2f3d5e", "#5e5c59"]}
         blur={15}
-        waveWidth={80}
         speed="slow"
       >
         <div className="flex justify-center relative z-10 my-20 ">

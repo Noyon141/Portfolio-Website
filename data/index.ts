@@ -82,7 +82,7 @@ export const projects = [
       "/postgresql.svg",
       "/prisma.svg",
     ],
-    link: "https://e-store-public.vercel.app/",
+    link: "https://e-store-public-git-main-mofijur-rahmans-projects.vercel.app/",
   },
   {
     id: 2,

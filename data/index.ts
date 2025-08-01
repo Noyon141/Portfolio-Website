@@ -86,11 +86,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "IMDB Clone",
-    des: "A simple IMDB clone with a search feature, using the IMDB API and Next.js for server-side rendering.",
+    title: "Sparkure",
+    des: "Sparkure - Premium Cleaning Service. Where Clean Meets Cure. Premium on-demand cleaning services for homes and offices.",
     img: "/project2.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "re.svg"],
-    link: "https://imdb-clone-mdn.vercel.app/",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg","/prisma.svg"],
+    link: "https://sparkure-premium-cleaning-service.vercel.app/",
   },
   // {
   //   id: 3,
